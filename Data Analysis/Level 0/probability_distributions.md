@@ -66,14 +66,6 @@ from scipy.stats import norm
 norm.pdf(x=0, loc=0, scale=1)  # Standard normal distribution
 ```
 
-### 4. **Poisson Distribution**
-Used to model the number of times an event occurs in a fixed interval of time or space.
-- Parameter: λ (average rate)
-```python
-from scipy.stats import poisson
-poisson.pmf(k=3, mu=2)
-```
-
 ---
 
 ## Probability in Python
@@ -96,15 +88,7 @@ dice = random.randint(1, 6)
 - Used in hypothesis testing and inferential statistics
 - Foundation for machine learning algorithms
 
----
 
-## Practice Exercise
-
-1. Simulate 1000 coin tosses and calculate the experimental probability.
-2. Plot the normal distribution curve using `matplotlib`.
-3. Use `scipy.stats` to compute binomial and Poisson probabilities.
-
----
 
 ## Summary
 
@@ -114,7 +98,6 @@ dice = random.randint(1, 6)
 | Uniform           | Equal chance for all outcomes                 |
 | Binomial          | Two outcomes over multiple trials             |
 | Normal            | Bell-shaped distribution (mean & variance)   |
-| Poisson           | Frequency of events in a fixed interval       |
 
 ---
 
