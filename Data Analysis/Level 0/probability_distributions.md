@@ -53,18 +53,10 @@ All outcomes are equally likely.
 ### 2. **Binomial Distribution**
 Used when there are exactly two outcomes (success/failure) across **n** trials.
 - Parameters: `n` (number of trials), `p` (probability of success)
-```python
-from scipy.stats import binom
-binom.pmf(k=2, n=5, p=0.5)
-```
 
 ### 3. **Normal Distribution (Gaussian)**
 A symmetric, bell-shaped distribution defined by its **mean** (µ) and **standard deviation** (σ).
 - Many real-world datasets follow this.
-```python
-from scipy.stats import norm
-norm.pdf(x=0, loc=0, scale=1)  # Standard normal distribution
-```
 
 ---
 
