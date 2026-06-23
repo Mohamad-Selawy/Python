@@ -1,4 +1,5 @@
 
+https://colab.research.google.com/drive/1EXYo_sPoOpWSxeZVQ5E8RNcLyfahG1NO?usp=sharing
 # Probability & Distributions
 
 _This section introduces you to the fundamentals of probability and common statistical distributions used in data analysis and data science._
