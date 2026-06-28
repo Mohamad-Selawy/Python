@@ -15,7 +15,7 @@ Learn how to clean, manipulate, and prepare datasets using powerful Python libra
 - Merging, joining, and concatenating datasets
 - Grouping and aggregating data
 - Applying functions with `.apply()`, `.map()`, and `.lambda`
-- Transforming data with `.pivot()`, `.melt()`, `.stack()`, `.unstack()`
+- Transforming data with `.pivot()`, `.melt()`
 
 ### 2. [Data Types & Conversions](https://github.com/Tanu-N-Prabhu/Python/blob/master/Data%20Analysis/Level%201/data_types_and_conversions.ipynb)
 - Understanding `object`, `int`, `float`, `category`, `datetime`
