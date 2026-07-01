@@ -9,7 +9,7 @@ Utilize Exploratory Data Analysis (EDA) techniques to gain a deeper understandin
 
 ## What to Learn
 
-### [2. Correlation & Covariance](https://github.com/Tanu-N-Prabhu/Python/blob/master/Data%20Analysis/Level%202/correlation_covariance.ipynb)
+### [1. Correlation & Covariance](https://github.com/Tanu-N-Prabhu/Python/blob/master/Data%20Analysis/Level%202/correlation_covariance.ipynb)
 - **Correlation** measures the strength and direction of a linear relationship between two variables.
 - **Covariance** shows how two variables change together.
 
@@ -22,7 +22,7 @@ df.cov()         # Covariance matrix
 
 ---
 
-### [3. GroupBy and Pivot Tables](https://github.com/Tanu-N-Prabhu/Python/blob/master/Data%20Analysis/Level%202/groupby_and_pivot_tables.ipynb)
+### [2. GroupBy and Pivot Tables](https://github.com/Tanu-N-Prabhu/Python/blob/master/Data%20Analysis/Level%202/groupby_and_pivot_tables.ipynb)
 
 - **GroupBy** lets you split the data, apply a function, and combine the result.
 - **Pivot tables reshape** data for summary and comparison.
@@ -36,7 +36,7 @@ df.pivot_table(values='sales', index='region', columns='product')
 
 ---
 
-### [4. Outlier Detection & Distributions](https://github.com/Tanu-N-Prabhu/Python/blob/master/Data%20Analysis/Level%202/outlier_detection_%26_distributions.ipynb)
+### [3. Outlier Detection & Distributions](https://github.com/Tanu-N-Prabhu/Python/blob/master/Data%20Analysis/Level%202/outlier_detection_%26_distributions.ipynb)
 - Use boxplots, histograms, or Z-scores to detect **outliers**.
 - Understand **data distribution shape**: Normal, skewed, etc.
 
@@ -51,7 +51,7 @@ sns.histplot(data=df['column'], kde=True)
 
 ---
 
-### [5. EDA Workflow](https://github.com/Tanu-N-Prabhu/Python/blob/master/Data%20Analysis/Level%202/eda_workflow.ipynb)
+### [4. EDA Workflow](https://github.com/Tanu-N-Prabhu/Python/blob/master/Data%20Analysis/Level%202/eda_workflow.ipynb)
 A typical workflow includes:
 
 - Data overview - shape, info, head
